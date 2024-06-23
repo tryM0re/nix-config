@@ -11,7 +11,7 @@
         "kubectl"
         "ssh-agent"
       ];
-      extraConfig = "zstyle :omz:plugins:ssh-agent identities gitlab github_kitty";
+      extraConfig = "zstyle :omz:plugins:ssh-agent identities gitlab github github_kitty";
     };
   };
 }
