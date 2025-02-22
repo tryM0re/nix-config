@@ -42,7 +42,7 @@ in {
 
       #monitor = "eDP-1,1920x1080@60,0x0,1";
       monitor = [
-        "DP-1,1920x1080@60,0x0,1.0"
+        "DP-1,preferred,0x0,1.0"
         "eDP-1,1920x1080@60,280x1440,1.0"
       ];
 
@@ -126,13 +126,6 @@ in {
           pseudotile = true; # master switch for pseudotiling. Enabling is bound to mainMod + P in the keybinds section below
           preserve_split = true; # you probably want this
       };
-
-      
-      master = {
-          # See https://wiki.hyprland.org/Configuring/Master-Layout/ for more
-          new_is_master = true;
-      };
-
 
       gestures = {
           # See https://wiki.hyprland.org/Configuring/Variables/ for more

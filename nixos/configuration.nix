@@ -10,6 +10,7 @@
       ./sound.nix
       ./users.nix
       ./display-manager.nix
+      ./docker.nix
     ];
 
   # Bootloader.
